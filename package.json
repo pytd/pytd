@@ -1,0 +1,36 @@
+{
+  "name": "pytd",
+  "version": "1.0.0",
+  "description": "Descarga de pdfs proteccion y tecnologia diagnostica",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node app.js --exec",
+    "dev": "nodemon app.js",
+    "devbabel": "nodemon app.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotayes101/pytd.git"
+  },
+  "keywords": [
+    "pdf",
+    "descarga"
+  ],
+  "author": "Jota Mario Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jotayes101/pytd/issues"
+  },
+  "homepage": "https://github.com/jotayes101/pytd#readme",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6"
+  }
+}
