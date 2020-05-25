@@ -1,5 +1,5 @@
 const { google } = require('googleapis');
-const credentials = require('./Quickstart-44293cd8e61f.json');
+const credentials = require('./pytd-bd9c64e2e6a9.json');
 const scopes = [
   'https://www.googleapis.com/auth/drive'
 ];
